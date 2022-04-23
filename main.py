@@ -1,4 +1,6 @@
-
-#Escape Conversion
-weather = "\t It\ 's \"kind of\"sunny \n hope you have a good day"
-print(weather)
+name = 'siva'
+age = 25
+print(f'hello' + 'my name is '+ name + 'my age is ' +str(age))
+name = 'siva'
+age = 25
+print(f'hello .my name is {name}. my age is {age}')
