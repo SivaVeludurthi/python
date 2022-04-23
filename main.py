@@ -1,4 +1,4 @@
-a = str(100)
-b = int(a)
-c =type(b)
-print (c)
+
+#Escape Conversion
+weather = "\t It\ 's \"kind of\"sunny \n hope you have a good day"
+print(weather)
