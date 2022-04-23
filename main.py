@@ -1,6 +1,10 @@
-#math funtions,know more search python math funtions
-print(round(3.9))
-
+#operator procedence
+print((20 -12) ** (2) )
+# power of symbol ""**""
+# ()
+#  **
+# * /
+# + -
 
 
 
