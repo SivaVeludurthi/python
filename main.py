@@ -1,6 +1,7 @@
-basket =[1,2,3,4,5,6]
-basket.clear()
-print(basket)
+basket =['a','b','c','d','e','d']
+
+print(basket.count('d'))
+print('a' in basket)
 
 
 
