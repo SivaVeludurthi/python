@@ -5,8 +5,8 @@ amazon_Cart=[
  'toys'
  ,'sunglasses']
 amazon_Cart[0] ='laptop'
-new_Cart = amazon_Cart[0:3]
+new_Cart = amazon_Cart[:]
 new_Cart[0]='gum'
-print(new_Cart[0:3])
+print(new_Cart)
 print(amazon_Cart)
 
