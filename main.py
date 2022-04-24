@@ -1,12 +1,5 @@
-name = input ('what is your name?')
-print(f'hi {name}')
-birth_Day = input('what year were you born?')
-age = 2022 -int(birth_Day)
-print(f'your age is :{age}')
-hobbies = input('what are your hobbies?')
-print(f'your are grate.Hoo {hobbies} are this hobbies you have?,really appreciated')
-frinds = input ('how many frineds you have?')
-print(f'i have only {frinds} ')
-places = input('which places you really like?')
-print(f'you visited " {places} ".very Nice places you visited before.I am aslo visited few places before!')
-
+username = input('what is your username?')
+password = input ('what is your password?')
+password_length =len(password)
+hidden_password = '*' * password_length
+print(f'{username},your password,{hidden_password},is {password_length} letters long')
