@@ -1,4 +1,12 @@
-amazon_Cart=['notebooks','sunglasses']
-print(amazon_Cart[1])
-li2 =['a','b','c']
-li3 = [1,2,'a',True]
+#list slicing(should create new cart)
+amazon_Cart=[
+'notebooks', 
+ 'milk',
+ 'toys'
+ ,'sunglasses']
+amazon_Cart[0] ='laptop'
+new_Cart = amazon_Cart[0:3]
+new_Cart[0]='gum'
+print(new_Cart[0:3])
+print(amazon_Cart)
+
