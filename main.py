@@ -1,8 +1,8 @@
-#Matrix
-matrix =[
-  [1,5,1],
-  [0,1,0],
-  [0,0,1]
-]
-print(matrix[0][1])
+basket =[1,2,3,4,5,6]
+#adding 
+basket.insert(5,100)
+new_list = basket.extend([100])
+print(basket)
+print(new_list)
+
 
