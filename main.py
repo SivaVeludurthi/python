@@ -1,10 +1,9 @@
-basket =['a','b','c','d','e','d']
-#basket.sort()
-basket.reverse()
-sentence ='!'
-new_sentence =sentence.join(['hi','my','name','is'])
-print(new_sentence)
-
+#list packing
+a,b,c ,*cs =[1,2,3,34,345,5345]
+print(a)
+print(b)
+print(c)
+print(cs)
 
 
 
