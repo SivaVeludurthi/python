@@ -1,7 +1,7 @@
 basket =['a','b','c','d','e','d']
+basket.sort()
+print(basket)
 
-print(basket.count('d'))
-print('a' in basket)
 
 
 
